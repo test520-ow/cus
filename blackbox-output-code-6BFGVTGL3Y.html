@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crimson Unicorns - Overwatch Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #000000, #330000);
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #FF0000, #000000);
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .member {
+            background: rgba(255, 0, 0, 0.1);
+            border: 2px solid #FF0000;
+            border-radius: 10px;
+            margin: 20px 0;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+        .member.captain {
+            border-color: #FFD700; /* Gold for captain */
+            background: rgba(255, 215, 0, 0.1);
+        }
+        .member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 3px solid #FF0000;
+        }
+        .member-info {
+            flex: 1;
+        }
+        .heroes {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .heroes img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+        .socials {
+            margin-top: 10px;
+        }
+        .socials a {
+            color: #FF0000;
+            text-decoration: none;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .socials a:hover {
+            color: #FFFFFF;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000000;
+            color: #FF0000;
+        }
+        @media (max-width: 768px) {
+            .member {
+                flex-direction: column;
+                text-align: center;
+            }
+            .member img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Crimson Unicorns</h1>
+        <p>Overwatch Team - Black & Red Dominance</p>
+    </header>
+    <div class="container">
+        <!-- Captain Slot -->
+        <div class="member captain">
+            <img src="https://via.placeholder.com/100x100/FF0000/FFFFFF?text=Captain" alt="Captain Avatar">
+            <div class="member-info">
+                <h2>Captain Name</h2>
+                <p><strong>Role:</strong> Captain</p>
+                <p><strong>Favorite Heroes:</strong></p>
+                <div class="heroes">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero1" alt="Hero 1">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero2" alt="Hero 2">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero3" alt="Hero 3">
+                </div>
+                <div class="socials">
+                    <a href="https://twitter.com/captain">Twitter</a>
+                    <a href="https://twitch.tv/captain">Twitch</a>
+                    <a href="https://discord.gg/captain">Discord</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Member 1 -->
+        <div class="member">
+            <img src="https://via.placeholder.com/100x100/FF0000/FFFFFF?text=Member1" alt="Member1 Avatar">
+            <div class="member-info">
+                <h2>Member 1 Name</h2>
+                <p><strong>Role:</strong> Member</p>
+                <p><strong>Favorite Heroes:</strong></p>
+                <div class="heroes">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero1" alt="Hero 1">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero2" alt="Hero 2">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero3" alt="Hero 3">
+                </div>
+                <div class="socials">
+                    <a href="https://twitter.com/member1">Twitter</a>
+                    <a href="https://twitch.tv/member1">Twitch</a>
+                    <a href="https://discord.gg/member1">Discord</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Member 2 -->
+        <div class="member">
+            <img src="https://via.placeholder.com/100x100/FF0000/FFFFFF?text=Member2" alt="Member2 Avatar">
+            <div class="member-info">
+                <h2>Member 2 Name</h2>
+                <p><strong>Role:</strong> Member</p>
+                <p><strong>Favorite Heroes:</strong></p>
+                <div class="heroes">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero1" alt="Hero 1">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero2" alt="Hero 2">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero3" alt="Hero 3">
+                </div>
+                <div class="socials">
+                    <a href="https://twitter.com/member2">Twitter</a>
+                    <a href="https://twitch.tv/member2">Twitch</a>
+                    <a href="https://discord.gg/member2">Discord</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Member 3 -->
+        <div class="member">
+            <img src="https://via.placeholder.com/100x100/FF0000/FFFFFF?text=Member3" alt="Member3 Avatar">
+            <div class="member-info">
+                <h2>Member 3 Name</h2>
+                <p><strong>Role:</strong> Member</p>
+                <p><strong>Favorite Heroes:</strong></p>
+                <div class="heroes">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero1" alt="Hero 1">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero2" alt="Hero 2">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero3" alt="Hero 3">
+                </div>
+                <div class="socials">
+                    <a href="https://twitter.com/member3">Twitter</a>
+                    <a href="https://twitch.tv/member3">Twitch</a>
+                    <a href="https://discord.gg/member3">Discord</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Member 4 -->
+        <div class="member">
+            <img src="https://via.placeholder.com/100x100/FF0000/FFFFFF?text=Member4" alt="Member4 Avatar">
+            <div class="member-info">
+                <h2>Member 4 Name</h2>
+                <p><strong>Role:</strong> Member</p>
+                <p><strong>Favorite Heroes:</strong></p>
+                <div class="heroes">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero1" alt="Hero 1">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero2" alt="Hero 2">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero3" alt="Hero 3">
+                </div>
+                <div class="socials">
+                    <a href="https://twitter.com/member4">Twitter</a>
+                    <a href="https://twitch.tv/member4">Twitch</a>
+                    <a href="https://discord.gg/member4">Discord</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Member 5 -->
+        <div class="member">
+            <img src="https://via.placeholder.com/100x100/FF0000/FFFFFF?text=Member5" alt="Member5 Avatar">
+            <div class="member-info">
+                <h2>Member 5 Name</h2>
+                <p><strong>Role:</strong> Member</p>
+                <p><strong>Favorite Heroes:</strong></p>
+                <div class="heroes">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero1" alt="Hero 1">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero2" alt="Hero 2">
+                    <img src="https://via.placeholder.com/50x50/000000/FFFFFF?text=Hero3" alt="Hero 3">
+                </div>
+                <div class="socials">
+                    <a href="https://twitter.com/member5">Twitter</a>
+                    <a href="https://twitch.tv/member5">Twitch</a>
+                    <a href="https://discord.gg/member5">Discord</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Crimson Unicorns. All rights reserved. Contact us for recruitment!</p>
+    </footer>
+</body>
+</html>
